@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Finder</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h2>Name Finder</h2>
+    <p>&emsp;Find names that start and end with the same letter. Enter your letter of choice in the small box, and your name list seperated by spaces in the big one.</p>
+    <form>
+        <div>
+            <input id="input-letter" type="text" value="A" placeholder="A">
+            <button type="submit">Search</button>
+        </div> 
+        <textarea 
+            id="input-name"
+            placeholder="Names seperated by a space"
+            rows="8"
+        >
+        Aaliyah Abbott Abella Ada Adalee Adalyn Adalynn Addilyn Adele Adeline Adelisa Adelia Adella Adley Adrienne Aileen Ainsley Aisha Aislin Alana Alaya Alayna Alessandra Alexa Alexandra Alexandria Alexandrina Alexia Alice Alicia Alina Alise Alisha Alison Alivia Aliza Allie Allison Alma Alondra Alyson Alyssa Amanda Amara Amaya Amber Amelie Amira Amy Ana Anais Anastasia Anaya Andi Andrea Angela Angelina Anissa Ann Anna Annabelle Annalise Annie Annika Ansley Anya April Ariana Arianna Ariel Arielle Arlette Arya Asha Ashley Ashlynn Aspen Astrid Athena Aubree Aubriella Aurelia Austyn Autumn Avah Avery Aviana Avianna Ayla Azalea
+        </textarea>
+    </form>
+    <h3>Results:</h3>
+    <div id="results"></div>
+</body>
+</html>

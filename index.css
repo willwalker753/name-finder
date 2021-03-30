@@ -1,0 +1,43 @@
+html {
+    background-image: linear-gradient(rgb(124, 124, 124), white);
+    height: 100%;
+
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: white;
+    text-shadow: 2px 2px 2px rgb(42, 42, 42);
+    text-align: center;
+}
+form > div, form {
+    display: flex;
+    justify-content: center;
+}
+form {
+    flex-direction: column;
+}
+#input-letter {
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+button {
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(228, 149, 2);
+    color: white;
+    font-weight: bold;
+}
+#input-name {
+    height: 30vh;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#input-letter, #input-name, button {
+    border: 2px solid rgb(124, 124, 124);
+    border-radius: 3px;
+}
+#results > p {
+    text-transform: capitalize;
+}
